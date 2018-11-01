@@ -54,6 +54,6 @@ def eyda():
 def server_static(filename):
     return static_file(filename, root='./static')
 
-run(host='localhost', port=8800, debug = True, app = app)
+#run(host='localhost', port=8800, debug = True, app = app)
 
-#bottle.run(host='0.0.0.0', port=argv[1], app = app) #Þetta þarf að vera í gangi til að heruko serverinn mun virka
+bottle.run(host='0.0.0.0', port=argv[1], app = app) #Þetta þarf að vera í gangi til að heruko serverinn mun virka
