@@ -1,6 +1,7 @@
 from bottle import *
 from beaker.middleware import SessionMiddleware
 from sys import argv
+import os
 
 session_opts = {
     'session.type': 'file',
