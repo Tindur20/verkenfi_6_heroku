@@ -1,1 +1,1 @@
-web: python ./verkefni.py $PORT
+web: python verkefni.py
